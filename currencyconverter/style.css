@@ -1,0 +1,95 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;
+  background-color: #f4e4ba;
+}
+
+.box{
+  background-color: rgb(255, 255, 255);
+  border:1px solid lightgray;
+  padding:2rem;
+  border-radius: 1rem;
+  min-height: 60vh;
+  width: 50vh;
+}
+
+form input,button{
+  width: 100%;
+  border:none;
+  outline:none;
+  border-radius: 2rem;
+}
+
+form input{
+  border:1px solid lightgray;
+  height: 3rem;
+  padding-left: 1rem;
+  font-size: medium;
+}
+
+.exchange{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:2rem;
+  text-align: center;
+ 
+}
+
+select{
+ height: 3rem;
+ width: 6rem;
+  border:none;
+  outline:none;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+
+.selectcurrent img{
+  max-width: 2rem;
+}
+
+.selectcurrent{
+  display:flex;
+  width: 6rem;
+  justify-content: center;
+  align-items: center;
+  border:1px solid lightgray;
+  border-radius: 1rem;
+}
+
+.exchange i{
+  font-size: 1rem;
+  margin-top:1rem;
+}
+
+form button{
+  height: 3rem;
+  font-size: 1rem;
+  border: 1px solid lightgray;
+  background-color: #f4b4ba;
+  cursor: pointer;
+}
+
+h2{
+  font-size: 17px;
+  margin-left: 1rem;
+  
+}
+
+h1{
+  margin-top: 15px;
+  font-size: 23px;
+  height: 3rem;
+  text-align: center;
+  padding:5px;
+  text-decoration:solid;
+}
